@@ -1,0 +1,12 @@
+  # config_source.yml
+data_sources:
+  - name: nba_raw
+    path: "D:/COMPUTER_SCIENCE/NBA_DATA_PROJECT/Data_source/nba_raw_data/csv"
+    file_type: csv
+
+database:
+  host: "localhost"
+  port: 5432
+  user: "postgres"
+  password: "0000"
+  dbname: "nba_dev"
